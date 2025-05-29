@@ -1,10 +1,26 @@
+{% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Landing Page</title>
+    <meta charset="UTF-8">
+    <title>Campus Solution - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'main/style.css' %}">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>Welcome to the main app landing page.</p>
+    <header class="main-header">
+        <span class="header-title">Welcome</span>
+        <div>
+            <a href="/login/" class="login-btn">Login</a>
+            <a href="/signup/" class="signup-btn">Signup</a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Campus Solution</h1>
+        <p>Welcome to Campus Solution</p>
+    </div>
+    <div class="footer">
+        &copy; 2025 Kaimur Valley Innovations Pvt. Ltd.
+    </div>
 </body>
 </html>
