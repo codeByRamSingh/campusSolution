@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # Add your apps here
+    'main',  # Main app for the campus solution
 ]
 
 MIDDLEWARE = [
